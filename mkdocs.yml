@@ -35,71 +35,70 @@ nav:
   - Home: index.md
 
   - APIs & Web:
-    - API Gateway: API_Gateway_Learning_Notes_Fresh.md
-    - REST RPC Custom Action: REST RPC CustomAction.md
-    - Comprehensive REST & API Guide: Comprehensive Study Guide REST, API.md
-    - Middleware: MiddleWare.md
-    - SignalR WCF gRPC: SignalR WCF gRPC.md
-    - nGinx Kestrel: nGinx Kestrel.md
-    - IIS Express vs IIS Server: IIS EXPRESS VS IIS SERVER.md
+    - API Gateway: API_Gateway_Learning_Notes_Fresh.txt
+    - REST RPC Custom Action: REST RPC CustomAction.txt
+    - Comprehensive REST & API Guide: Comprehensive Study Guide REST, API.txt
+    - Middleware: MiddleWare.txt
+    - SignalR WCF gRPC: SignalR WCF gRPC.txt
+    - nGinx Kestrel: nGinx Kestrel.txt
+    - IIS Express vs IIS Server: IIS EXPRESS VS IIS SERVER.txt
 
   - Cloud & DevOps:
-    - DevOps DevSecOps: DevOps DevSecOps.md
-    - Azure Functions & App Service: Azure functions and Azure App service.md
-    - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
-    - Terraform Bicep ARM: Terraform Bicep Arm.md
-    - Container Docker Kubernetes: Container Docker Kubernetes.md
-    - Akamai: Akamai.md
-    - Application Pool: Application Pool.md
+    - DevOps DevSecOps: DevOps DevSecOps.txt
+    - Azure Functions & App Service: Azure functions and Azure App service.txt
+    - Azure Service Principal vs Managed: Azure Service Principal vs Managed.txt
+    - Terraform Bicep ARM: Terraform Bicep Arm.txt
+    - Container Docker Kubernetes: Container Docker Kubernetes.txt
+    - Akamai: Akamai.txt
+    - Application Pool: Application Pool.txt
 
   - Architecture:
-    - Design Patterns: Design Patterns.md
-    - Monolithic vs Microservices: Monolithic Microservices.md
-    - Modular Latency: Modular Latency.md
-    - DLL Hell GAC COM: DllHell GAC COM.md
+    - Design Patterns: Design Patterns.txt
+    - Monolithic vs Microservices: Monolithic Microservices.txt
+    - Modular Latency: Modular Latency.txt
+    - DLL Hell GAC COM: DllHell GAC COM.txt
 
   - AI & Modern Tech:
-    - Types of AI Agents: Types of AI Agents.md
-    - RAG or Trained Data Response: RAG or Trained data response.md
-    - Vector Embeddings LLM RAG MCP: Vector Embeddings LLM RAG MCP Playwright.md
-    - MCP Servers: MCP Servers.md
-    - Create MCP Server - Good Links: Create MCP Server - Good links.md
-    - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
-    - Microsoft Responsible AI: Microsoft's 6 Responsible AI principles.md
+    - Types of AI Agents: Types of AI Agents.txt
+    - RAG or Trained Data Response: RAG or Trained data response.txt
+    - MCP Servers: MCP Servers.txt
+    - Create MCP Server - Good Links: Create MCP Server - Good links.txt
+    - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.txt
+    - Microsoft Responsible AI: Microsoft's 6 Responsible AI principles.txt
 
   - .NET & C#:
-    - Entity Framework: Entity Framework.md
-    - Async Await: Async Await.md
-    - Async Await Console vs ASP.NET: Async Await - Console Vs Asp.Net Vs Core.md
-    - Async vs Multithreading: Async Vs Multithreading.md
-    - Blazor: Blazor.md
-    - Hangfire: Hangfire.md
-    - Serialization vs Deserialization: Serialization Vs Deserialization.md
+    - Entity Framework: Entity Framework.txt
+    - Async Await: Async Await.txt
+    - Async Await Console vs ASP.NET: Async Await - Console Vs Asp.Net Vs Core.txt
+    - Async vs Multithreading: Async Vs Multithreading.txt
+    - Blazor: Blazor.txt
+    - Hangfire: Hangfire.txt
+    - Serialization vs Deserialization: Serialization Vs Deserialization.txt
 
   - Frontend:
-    - Angular vs Vue vs Node vs TypeScript: Angular Vs Vue Vs Node Vs Typescript.md
+    - Angular vs Vue vs Node vs TypeScript: Angular Vs Vue Vs Node Vs Typescript.txt
 
   - Data & Storage:
-    - SQL Lite Prisma: SQL lite Prisma.md
+    - SQL Lite Prisma: SQL lite Prisma.txt
 
   - Tools & Platforms:
-    - GIT: GIT.md
-    - GIT GitHub: GIT GITHUB.md
-    - Dynatrace: Dynatrace.md
-    - Error Log and Monitoring: Error Log and Monitoring.md
-    - Cyberark: Cyberark is an enterprise security.md
-    - Sharegate: Sharegate is a specialized tool for.md
-    - JetBrains Tools: Jet Brains Tools for Code quality.md
-    - Sublime vs Cursor: Sublime Vs Cursor.md
-    - Roselyn GC NAS: Roselyn GC NAS.md
-    - Hardware: Hardware.md
-    - YAML: Yaml.md
+    - GIT: GIT.txt
+    - GIT GitHub: GIT GITHUB.txt
+    - Dynatrace: Dynatrace.txt
+    - Error Log and Monitoring: Error Log and Monitoring.txt
+    - Cyberark: Cyberark is an enterprise security.txt
+    - Sharegate: Sharegate is a specialized tool for.txt
+    - JetBrains Tools: Jet Brains Tools for Code quality.txt
+    - Sublime vs Cursor: Sublime Vs Cursor.txt
+    - Roselyn GC NAS: Roselyn GC NAS.txt
+    - Hardware: Hardware.txt
+    - YAML: Yaml.txt
 
   - General:
-    - General Notes: General.md
-    - Insurance Learnings: Insurance Learnings.md
-    - What is an API: An API (Application Programming Int.md
-    - Yet to Explore: Yet to explore 1.md
+    - General Notes: General.txt
+    - Insurance Learnings: Insurance Learnings.txt
+    - What is an API: An API (Application Programming Int.txt
+    - Yet to Explore: Yet to explore 1.txt
 
 plugins:
   - search

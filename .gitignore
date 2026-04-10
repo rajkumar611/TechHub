@@ -2,3 +2,8 @@ site/
 .DS_Store
 __pycache__/
 *.pyc
+*.jfif
+*.jpg
+*.png
+*.pdf
+docs/Bala Questions/
