@@ -6,8 +6,6 @@ Types of Agent:
 4. Utility based Agent - thinks about various alternatives and gives the best, like self driving cars
 5. Learning agent - Keeps learning continuously
 
-9:47 AM
-
 Validated framework and connected agent taxonomy to interview preparation
 Validated framework and connected agent taxonomy to interview preparation
 Excellent framework. This is the classic AI agent taxonomy, and it directly maps to what you need to understand for your Build Lead interview.
