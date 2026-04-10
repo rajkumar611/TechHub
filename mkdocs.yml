@@ -1,7 +1,7 @@
 site_name: Tech Notes
 site_description: Personal technology learning notes by Rajkumar
 site_author: Rajkumar
-site_url: https://rajkumar611.github.io/Tech-Blog
+site_url: https://rajkumar611.github.io/TechHub
 
 theme:
   name: material
@@ -28,8 +28,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_url: https://github.com/rajkumar611/Tech-Blog
-repo_name: rajkumar611/Tech-Blog
+repo_url: https://github.com/rajkumar611/TechHub
+repo_name: rajkumar611/TechHub
 
 nav:
   - Home: index.md
