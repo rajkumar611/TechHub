@@ -105,7 +105,7 @@ For your context:
 Kubernetes = Technology (orchestration tool)
 AKS = Cloud service that runs Kubernetes on Azure
 
-You could theoretically run Kubernetes on QBE's physical servers (on-premises), but AKS would mean running it on Azure's cloud infrastructure.
+You could theoretically run Kubernetes on a company's physical servers (on-premises), but AKS would mean running it on Azure's cloud infrastructure.
 In short: Kubernetes enables containerized applications to scale. Cloud makes it easier to provision the infrastructure that Kubernetes needs.Haiku 4.5Extended
 
 

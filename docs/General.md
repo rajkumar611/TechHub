@@ -16,12 +16,6 @@ inspect the token contents
 
 ======================================================================================
 
-SAM+ is an internal only API used by QBE apps
-ZIP (Houdini) is a partner-facing API (external + internal), and because it is externally exposed, it is protected and
-governed by an API Gateway.
-
-======================================================================================
-
 MERN stack
 Mongodb - For database which uses JavaScript syntax in the shell to interact with db. The documents are stored in Json format
 Express JS - Framework used to build API using Javascript

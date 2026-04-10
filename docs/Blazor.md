@@ -87,6 +87,6 @@ Blazor builds a render tree, computes diffs, and updates the existing DOM rather
 
 Subsequent interactions update the DOM incrementally, following the SPA model.
 
-Tahi: Our Blazor WebAssembly app is a Single Page Application. The server sends only one HTML file (index.html). All Razor pages are actually components that load inside this single page. Routable components act like pages, and non‑routable components act like controls. The entire app — DLLs, WebAssembly runtime, JS, CSS — is downloaded to the browser, and the browser runs the .NET code locally. Only API calls go to the server. Authentication uses AAD tokens stored in the browser, and MSAL handles silent refresh. This is the same SPA model used by React and Angular.
+Blazor WebAssembly app is a Single Page Application. The server sends only one HTML file (index.html). All Razor pages are actually components that load inside this single page. Routable components act like pages, and non‑routable components act like controls. The entire app — DLLs, WebAssembly runtime, JS, CSS — is downloaded to the browser, and the browser runs the .NET code locally. Only API calls go to the server. Authentication uses AAD tokens stored in the browser, and MSAL handles silent refresh. This is the same SPA model used by React and Angular.
 DOM is the browser’s live tree of the page. Blazor uses a virtual DOM to update only what changed, re-renders efficiently, and uses JS interop whenever it needs to touch the real DOM.
 
