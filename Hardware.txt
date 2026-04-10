@@ -1,2 +1,0 @@
-SSD (Solid State Drive) Vs HDD (Hard Disk Drive) - QBE laptops uses SSD, modern with low latency
-NVMe = Non‑Volatile Memory Express. It is a modern, super‑fast protocol used by the latest SSDs to communicate with your computer.
