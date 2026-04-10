@@ -9,11 +9,8 @@ set DOCS=C:\Users\QBE\Downloads\Tech-Blog\docs
 echo.
 echo Step 1: Copying files from Learnings folder...
 
-REM Copy all .txt files and rename to .md
-for %%f in ("%LEARNINGS%\*.txt") do (
-    echo   Copying: %%~nf
-    copy /Y "%%f" "%DOCS%\%%~nf.md" >nul
-)
+REM Copy all .txt files recursively (including subfolders) and rename to .md
+powershell -Command "$l='%LEARNINGS%'; $d='%DOCS%'; Get-ChildItem -Path $l -Recurse -Filter '*.txt' | ForEach-Object { $rel=$_.FullName.Substring($l.Length+1); $dest=Join-Path $d ($rel -replace '\.txt$','.md'); $dir=Split-Path $dest; if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}; Copy-Item $_.FullName $dest -Force; Write-Host ('  Copying: '+$rel) }"
 
 echo.
 echo Step 2: Committing to Git...
