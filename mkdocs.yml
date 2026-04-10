@@ -1,0 +1,119 @@
+site_name: Tech Notes
+site_description: Personal technology learning notes by Rajkumar
+site_author: Rajkumar
+site_url: https://rajkumar611.github.io/Tech-Blog
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/rajkumar611/Tech-Blog
+repo_name: rajkumar611/Tech-Blog
+
+nav:
+  - Home: index.md
+
+  - APIs & Web:
+    - API Gateway: API_Gateway_Learning_Notes_Fresh.md
+    - REST RPC Custom Action: REST RPC CustomAction.md
+    - Comprehensive REST & API Guide: Comprehensive Study Guide REST, API.md
+    - Middleware: MiddleWare.md
+    - SignalR WCF gRPC: SignalR WCF gRPC.md
+    - nGinx Kestrel: nGinx Kestrel.md
+    - IIS Express vs IIS Server: IIS EXPRESS VS IIS SERVER.md
+
+  - Cloud & DevOps:
+    - DevOps DevSecOps: DevOps DevSecOps.md
+    - Azure Functions & App Service: Azure functions and Azure App service.md
+    - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
+    - Terraform Bicep ARM: Terraform Bicep Arm.md
+    - Container Docker Kubernetes: Container Docker Kubernetes.md
+    - Akamai: Akamai.md
+    - Application Pool: Application Pool.md
+
+  - Architecture:
+    - Design Patterns: Design Patterns.md
+    - Monolithic vs Microservices: Monolithic Microservices.md
+    - Modular Latency: Modular Latency.md
+    - DLL Hell GAC COM: DllHell GAC COM.md
+
+  - AI & Modern Tech:
+    - Types of AI Agents: Types of AI Agents.md
+    - RAG or Trained Data Response: RAG or Trained data response.md
+    - Vector Embeddings LLM RAG MCP: Vector Embeddings LLM RAG MCP Playwright.md
+    - MCP Servers: MCP Servers.md
+    - Create MCP Server - Good Links: Create MCP Server - Good links.md
+    - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
+    - Microsoft Responsible AI: Microsoft's 6 Responsible AI principles.md
+
+  - .NET & C#:
+    - Entity Framework: Entity Framework.md
+    - Async Await: Async Await.md
+    - Async Await Console vs ASP.NET: Async Await - Console Vs Asp.Net Vs Core.md
+    - Async vs Multithreading: Async Vs Multithreading.md
+    - Blazor: Blazor.md
+    - Hangfire: Hangfire.md
+    - Serialization vs Deserialization: Serialization Vs Deserialization.md
+
+  - Frontend:
+    - Angular vs Vue vs Node vs TypeScript: Angular Vs Vue Vs Node Vs Typescript.md
+
+  - Data & Storage:
+    - SQL Lite Prisma: SQL lite Prisma.md
+
+  - Tools & Platforms:
+    - GIT: GIT.md
+    - GIT GitHub: GIT GITHUB.md
+    - Dynatrace: Dynatrace.md
+    - Error Log and Monitoring: Error Log and Monitoring.md
+    - Cyberark: Cyberark is an enterprise security.md
+    - Sharegate: Sharegate is a specialized tool for.md
+    - JetBrains Tools: Jet Brains Tools for Code quality.md
+    - Sublime vs Cursor: Sublime Vs Cursor.md
+    - Roselyn GC NAS: Roselyn GC NAS.md
+    - Hardware: Hardware.md
+    - YAML: Yaml.md
+
+  - General:
+    - General Notes: General.md
+    - Insurance Learnings: Insurance Learnings.md
+    - What is an API: An API (Application Programming Int.md
+    - Yet to Explore: Yet to explore 1.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true

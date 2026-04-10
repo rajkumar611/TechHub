@@ -1,0 +1,3 @@
+SQLite is a lightweight, file‑based database that lives inside the application itself. It doesn’t need a separate server. In .NET you can access it using Entity Framework Core, and in the JavaScript/TypeScript ecosystem you can access it using Prisma.
+
+Prisma is a modern, strongly‑typed ORM for Node.js and TypeScript that works like Entity Framework in .NET — it generates SQL, manages migrations, and lets you access databases using clean, model‑driven code instead of writing SQL manually.
