@@ -18,7 +18,7 @@ for %%f in ("%LEARNINGS%\*.txt") do (
 echo.
 echo Step 2: Committing to Git...
 cd /d "C:\Users\QBE\Downloads\Tech-Blog"
-git add docs\*.md
+git add -A
 git commit -m "sync: update from Learnings folder"
 git push
 
