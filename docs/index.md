@@ -1,4 +1,4 @@
-# Tech Notes
+# Tech Hub
 
 Personal technology learning notes covering APIs, Cloud, Architecture, AI, .NET, and more.
 
