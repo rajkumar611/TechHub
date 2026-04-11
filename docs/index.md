@@ -1,10 +1,15 @@
+---
+hide:
+  - toc
+---
+
 # Tech Hub
 
 Personal technology learning notes covering APIs, Cloud, Architecture, AI, .NET, and more.
 
----
+> **Last updated: 11:40 am, 12 April 2026 (New Zealand Time)**
 
-## Topics
+---
 
 | Category | Topics |
 |---|---|
@@ -17,4 +22,4 @@ Personal technology learning notes covering APIs, Cloud, Architecture, AI, .NET,
 
 ---
 
-*Use the navigation on the left or the search bar to find any topic.*
+*Use the navigation tabs above or the search bar to find any topic.*
