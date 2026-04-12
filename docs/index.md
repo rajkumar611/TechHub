@@ -7,7 +7,7 @@ hide:
 
 Personal technology learning notes covering APIs, Cloud, Architecture, AI, .NET, and more.
 
-> **Last updated: 2:21 pm, 12 April 2026 (New Zealand Time)**
+> **Last updated: 2:46 pm, 12 April 2026 (New Zealand Time)**
 
 ---
 
