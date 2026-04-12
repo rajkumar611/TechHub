@@ -41,7 +41,6 @@ nav:
     - Middleware: MiddleWare.md
     - SignalR WCF gRPC: SignalR WCF gRPC.md
     - nGinx Kestrel: nGinx Kestrel.md
-    - IIS Express vs IIS Server: IIS EXPRESS VS IIS SERVER.md
 
   - Cloud & DevOps:
     - DevOps DevSecOps: DevOps DevSecOps.md
@@ -49,6 +48,7 @@ nav:
     - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
     - Terraform Bicep ARM: Terraform Bicep Arm.md
     - Container Docker Kubernetes: Container Docker Kubernetes.md
+    - Containers Dockers Kubernetes: Containers Dockers Kubernetes.md
     - Akamai: Akamai.md
     - Application Pool: Application Pool.md
 
@@ -60,11 +60,15 @@ nav:
 
   - AI & Modern Tech:
     - Types of AI Agents: Types of AI Agents.md
+    - AI Agent Architecture: AI Agent Architecture.md
     - RAG or Trained Data Response: RAG or Trained data response.md
+    - Langchain: Langchain.md
     - MCP Servers: MCP Servers.md
     - Create MCP Server - Good Links: Create MCP Server - Good links.md
+    - Open Claw: Open Claw.md
     - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
     - Microsoft Responsible AI: Microsoft 6 Responsible AI Principles.md
+    - "Microsoft's Responsible AI": "Microsoft's 6 Responsible AI principles.md"
 
   - .NET & C#:
     - Entity Framework: Entity Framework.md
@@ -77,6 +81,8 @@ nav:
 
   - Frontend:
     - Angular vs Vue vs Node vs TypeScript: Angular Vs Vue Vs Node Vs Typescript.md
+    - NodeJS: NodeJS.md
+    - React: React.md
 
   - Data & Storage:
     - SQL Lite Prisma: SQL lite Prisma.md
@@ -99,6 +105,7 @@ nav:
     - Insurance Learnings: Insurance Learnings.md
     - What is an API: An API (Application Programming Int.md
     - Yet to Explore: Yet to explore 1.md
+
 
 plugins:
   - search
