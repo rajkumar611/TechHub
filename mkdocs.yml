@@ -47,7 +47,6 @@ nav:
     - Azure Functions & App Service: Azure functions and Azure App service.md
     - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
     - Terraform Bicep ARM: Terraform Bicep Arm.md
-    - Container Docker Kubernetes: Container Docker Kubernetes.md
     - Containers Dockers Kubernetes: Containers Dockers Kubernetes.md
     - Akamai: Akamai.md
     - Application Pool: Application Pool.md
