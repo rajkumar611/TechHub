@@ -5,104 +5,96 @@ site_url: https://rajkumar611.github.io/TechHub
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
-    - scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: slate
+    primary: deep purple
+    accent: purple
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - search.highlight
     - search.suggest
     - content.code.copy
-  icon:
-    repo: fontawesome/brands/github
 
-repo_url: https://github.com/rajkumar611/TechHub
-repo_name: rajkumar611/TechHub
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/credit.js
 
 nav:
-  - Home: index.md
+  - AI & Modern Tech:
+    - AI Agent Architecture: AI Agent Architecture.md
+    - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
+    - Create MCP Server - Good Links: Create MCP Server - Good links.md
+    - Langchain: Langchain.md
+    - MCP Servers: MCP Servers.md
+    - Microsoft Responsible AI: Microsoft 6 Responsible AI principles.md
+    - Open Claw: Open Claw.md
+    - RAG or Trained Data Response: RAG or Trained data response.md
+    - Types of AI Agents: Types of AI Agents.md
 
   - APIs & Web:
     - API Gateway: API_Gateway_Learning_Notes_Fresh.md
-    - REST RPC Custom Action: REST RPC CustomAction.md
     - Comprehensive REST & API Guide: Comprehensive Study Guide REST, API.md
     - Middleware: MiddleWare.md
-    - SignalR WCF gRPC: SignalR WCF gRPC.md
     - nGinx Kestrel: nGinx Kestrel.md
-
-  - Cloud & DevOps:
-    - DevOps DevSecOps: DevOps DevSecOps.md
-    - Azure Functions & App Service: Azure functions and Azure App service.md
-    - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
-    - Terraform Bicep ARM: Terraform Bicep Arm.md
-    - Containers Dockers Kubernetes: Containers Dockers Kubernetes.md
-    - Akamai: Akamai.md
-    - Application Pool: Application Pool.md
+    - REST RPC Custom Action: REST RPC CustomAction.md
+    - SignalR WCF gRPC: SignalR WCF gRPC.md
 
   - Architecture:
     - Design Patterns: Design Patterns.md
-    - Monolithic vs Microservices: Monolithic Microservices.md
-    - Modular Latency: Modular Latency.md
     - DLL Hell GAC COM: DllHell GAC COM.md
+    - Modular Latency: Modular Latency.md
+    - Monolithic vs Microservices: Monolithic Microservices.md
 
-  - AI & Modern Tech:
-    - Types of AI Agents: Types of AI Agents.md
-    - AI Agent Architecture: AI Agent Architecture.md
-    - RAG or Trained Data Response: RAG or Trained data response.md
-    - Langchain: Langchain.md
-    - MCP Servers: MCP Servers.md
-    - Create MCP Server - Good Links: Create MCP Server - Good links.md
-    - Open Claw: Open Claw.md
-    - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
-    - Microsoft Responsible AI: Microsoft 6 Responsible AI principles.md
+  - Cloud & DevOps:
+    - Akamai: Akamai.md
+    - Application Pool: Application Pool.md
+    - Azure Functions & App Service: Azure functions and Azure App service.md
+    - Azure Service Principal vs Managed: Azure Service Principal vs Managed.md
+    - Containers Dockers Kubernetes: Containers Dockers Kubernetes.md
+    - DevOps DevSecOps: DevOps DevSecOps.md
+    - Terraform Bicep ARM: Terraform Bicep Arm.md
 
-  - .NET & C#:
-    - Entity Framework: Entity Framework.md
-    - Async Await: Async Await.md
-    - Async Await Console vs ASP.NET: Async Await - Console Vs Asp.Net Vs Core.md
-    - Async vs Multithreading: Async Vs Multithreading.md
-    - Blazor: Blazor.md
-    - Hangfire: Hangfire.md
-    - Serialization vs Deserialization: Serialization Vs Deserialization.md
+  - Data & Storage:
+    - SQL Lite Prisma: SQL lite Prisma.md
 
   - Frontend:
     - Angular vs Vue vs Node vs TypeScript: Angular Vs Vue Vs Node Vs Typescript.md
     - NodeJS: NodeJS.md
     - React: React.md
 
-  - Data & Storage:
-    - SQL Lite Prisma: SQL lite Prisma.md
-
-  - Tools & Platforms:
-    - GIT: GIT.md
-    - GIT GitHub: GIT GITHUB.md
-    - Dynatrace: Dynatrace.md
-    - Error Log and Monitoring: Error Log and Monitoring.md
-    - Cyberark: Cyberark is an enterprise security.md
-    - Sharegate: Sharegate is a specialized tool for.md
-    - JetBrains Tools: Jet Brains Tools for Code quality.md
-    - Sublime vs Cursor: Sublime Vs Cursor.md
-    - Roselyn GC NAS: Roselyn GC NAS.md
-    - Hardware: Hardware.md
-    - YAML: Yaml.md
-
   - General:
     - General Notes: General.md
     - Insurance Learnings: Insurance Learnings.md
     - What is an API: An API (Application Programming Int.md
     - Yet to Explore: Yet to explore 1.md
+
+  - .NET & C#:
+    - Async Await: Async Await.md
+    - Async Await Console vs ASP.NET: Async Await - Console Vs Asp.Net Vs Core.md
+    - Async vs Multithreading: Async Vs Multithreading.md
+    - Blazor: Blazor.md
+    - Entity Framework: Entity Framework.md
+    - Hangfire: Hangfire.md
+    - Serialization vs Deserialization: Serialization Vs Deserialization.md
+
+  - Tools & Platforms:
+    - Cyberark: Cyberark is an enterprise security.md
+    - Dynatrace: Dynatrace.md
+    - Error Log and Monitoring: Error Log and Monitoring.md
+    - GIT: GIT.md
+    - GIT GitHub: GIT GITHUB.md
+    - Hardware: Hardware.md
+    - JetBrains Tools: Jet Brains Tools for Code quality.md
+    - Roselyn GC NAS: Roselyn GC NAS.md
+    - Sharegate: Sharegate is a specialized tool for.md
+    - Sublime vs Cursor: Sublime Vs Cursor.md
+    - YAML: Yaml.md
 
 
 plugins:

@@ -49,7 +49,7 @@ if not exist "C:\Users\QBE\Downloads\Tech-Blog\docs\index.md" (
 
 echo.
 echo Step 3: Stamping last-updated time (New Zealand Time)...
-powershell -Command "$nz=[System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow,'New Zealand Standard Time'); $ts=$nz.ToString('h:mm tt, d MMMM yyyy'); $f='C:\Users\QBE\Downloads\Tech-Blog\docs\index.md'; (Get-Content $f) -replace '^> \*\*Last updated:.*$', ('> **Last updated: '+$ts+' (New Zealand Time)**') | Set-Content $f; Write-Host ('  Timestamp set to: '+$ts)"
+powershell -Command "$nz=[System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow,'New Zealand Standard Time'); $ts=$nz.ToString('h:mm tt, d MMMM yyyy'); $f='C:\Users\QBE\Downloads\Tech-Blog\docs\index.md'; (Get-Content $f) -replace '^\*Last updated:.*\*$', ('*Last updated: '+$ts+' (New Zealand Time)*') | Set-Content $f; Write-Host ('  Timestamp set to: '+$ts)"
 
 echo.
 echo Step 4: Committing to Git...

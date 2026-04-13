@@ -1,0 +1,173 @@
+/* ── Header credit (inline: text + LinkedIn logo on same row) ── */
+.md-header__credit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 0 0.9rem;
+  white-space: nowrap;
+}
+
+.md-header__credit-text {
+  color: var(--md-primary-bg-color);
+  font-size: 0.70rem;
+  opacity: 0.90;
+  letter-spacing: 0.01em;
+}
+
+.md-header__linkedin {
+  display: inline-flex;
+  align-items: center;
+  color: var(--md-primary-bg-color);
+  opacity: 0.80;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.md-header__linkedin:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.md-header__linkedin svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+/* ── Nav tabs: centered ──────────────────────────────────────── */
+.md-tabs__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* ── HR separator: same width as table ───────────────────────── */
+.md-typeset hr {
+  margin: 0.6rem 0;
+  border: none;
+  border-top: 2px solid var(--md-default-fg-color--lightest);
+  box-sizing: border-box;
+}
+
+/* ── Home page table: centered, no panel border ──────────────── */
+.md-typeset__scrollwrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.md-typeset__table {
+  width: auto;
+  margin: 0 auto;
+}
+
+.md-typeset table:not([class]) {
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  border: none;
+  width: auto;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.75rem 1rem;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.65rem 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.88rem;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+/* ── Hide permalink ¶ symbol on headings ─────────────────────── */
+.md-typeset .headerlink {
+  display: none;
+}
+
+/* ── Content headings ────────────────────────────────────────── */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 0.6rem;
+  margin-top: 1.8rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+
+/* ── Code blocks ─────────────────────────────────────────────── */
+.md-typeset pre {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  font-size: 0.83em;
+  padding: 0.1em 0.35em;
+}
+
+/* ── Nav link transitions ────────────────────────────────────── */
+.md-nav__link {
+  transition: color 0.15s ease;
+}
+
+.md-tabs__link {
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+/* ── Search bar: centered via flex balance ───────────────────── */
+/* Title (left) and credit (right) both get flex:1, search sits centre */
+.md-header__title {
+  flex: 1 !important;
+}
+
+.md-header__credit {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.md-search__form {
+  border-radius: 6px;
+}
+
+/* ── Admonitions ─────────────────────────────────────────────── */
+.md-typeset .admonition {
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+
+/* ── Footer ──────────────────────────────────────────────────── */
+.md-footer {
+  font-size: 0.75rem;
+}
+
+.md-copyright {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.md-copyright__highlight {
+  margin-left: auto;
+  text-align: right;
+}
