@@ -69,6 +69,12 @@ nav:
 - `docs/My/` — personal notes (also git-ignored via `.gitignore`)
 - `docs/My/Bala Questions/` — interview prep (also git-ignored)
 
+## Claude Behaviour Rules
+
+- **Never run `git commit` or `git push` without explicit user instruction.** Even if a script fails mid-way or changes are pending, always ask first.
+- **Never run `sync.bat` without explicit user instruction.**
+- When asked to execute `sync.bat`, run the script as-is and report what happened — do not manually repeat or substitute any of its steps.
+
 ## Deployment
 
 - **Trigger:** Any push to `master` branch
