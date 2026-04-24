@@ -161,13 +161,7 @@
   font-size: 0.75rem;
 }
 
-.md-copyright {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
 .md-copyright__highlight {
-  margin-left: auto;
+  float: right;
   text-align: right;
 }
