@@ -28,13 +28,18 @@ extra_javascript:
 nav:
   - AI & Modern Tech:
     - AI Agent Architecture: AI Agent Architecture.md
+    - AI Prompt Injection: AI Prompt Injection.md
+    - ChatGPT vs Perplexity: chatgpt Vs Perplexity.md
     - Claude Code vs GitHub Copilot: Claude Code Vs Github Copilot.md
     - Create MCP Server - Good Links: Create MCP Server - Good links.md
     - Langchain: Langchain.md
+    - LLM Access - Cloud vs Local: LLM Access - Cloud Vs Local.md
     - MCP Servers: MCP Servers.md
     - Microsoft Responsible AI: Microsoft 6 Responsible AI principles.md
     - Open Claw: Open Claw.md
+    - RAG not used in Claude: RAG not used in Claude.md
     - RAG or Trained Data Response: RAG or Trained data response.md
+    - SLM vs LLM: SLM Vs LLM.md
     - Types of AI Agents: Types of AI Agents.md
 
   - APIs & Web:
