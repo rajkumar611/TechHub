@@ -27,19 +27,14 @@ Tech-Blog/
 3. **Deploy** — The push triggers `deploy.yml` on GitHub Actions (Ubuntu runner), which installs `mkdocs-material` and runs `mkdocs gh-deploy --force` to the `gh-pages` branch
 4. **View** — GitHub Pages serves the compiled HTML site
 
-## Critical Rule: mkdocs.yml nav Must Be Updated Manually
+## Nav Registration (Automated via update-nav.ps1)
 
-**sync.bat does NOT touch mkdocs.yml.** MkDocs only renders pages that are explicitly listed in the `nav:` section. A file in `docs/` that is absent from `nav:` will never appear on the site.
+**sync.bat does NOT touch mkdocs.yml**, but `update-nav.ps1` handles nav registration automatically. Run it after syncing to register any new `docs/*.md` files into `mkdocs.yml`.
 
-**Every time sync.bat adds a new file, you must also add a corresponding entry to the `nav:` section in `mkdocs.yml`.**
-
-### Nav Entry Format
-
-```yaml
-nav:
-  - Category Name:
-    - Display Title: Exact Filename.md   # filename is relative to docs/
-```
+The script:
+- Detects `.md` files in `docs/` not yet listed in `nav:`
+- Auto-categorizes them by keyword-matching the filename
+- Merges and alphabetically sorts entries within each category block
 
 ### Categories Currently in Use
 
@@ -57,12 +52,9 @@ nav:
 
 ## Common Task: Add a New File to the Site
 
-1. Confirm the file was synced to `docs/` (check it exists)
-2. Open `mkdocs.yml`
-3. Find the appropriate category under `nav:`
-4. Add a line: `    - Display Title: Exact Filename.md`
-5. Keep entries alphabetically sorted within each category
-6. Commit and push — GitHub Actions will rebuild the site automatically
+1. Run `sync.bat` to copy new files into `docs/`
+2. Run `update-nav.ps1` to register them in `mkdocs.yml`
+3. Commit and push — GitHub Actions will rebuild the site automatically
 
 ## Files Intentionally Excluded from the Site
 
